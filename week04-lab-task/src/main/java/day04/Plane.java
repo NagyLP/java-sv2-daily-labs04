@@ -14,10 +14,9 @@ public class Plane {
 
     public boolean addPassanger(Passanger passanger) {
         if (passangerList.size() >= maxCapacity) {
-            return false;
-            passangerList.add(passanger);
+            return passangerList.add(passanger);
         }
-            return true;
+            return false;
     }
 
     public int getNumberOfPackages() {
