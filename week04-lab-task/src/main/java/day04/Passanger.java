@@ -13,7 +13,7 @@ public class Passanger {
         this.packetQual = packetQual;
     }
 
-     public String getName() {
+    public String getName() {
         return name;
     }
 
@@ -25,4 +25,3 @@ public class Passanger {
         return packetQual;
     }
 }
-
